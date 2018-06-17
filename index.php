@@ -25,7 +25,7 @@ if(isset($_GET['name']) && isset($_GET['punkte'])) {
 </head>
 <body>
 <script>
-  window.location.href = 'https://powerful-retreat-12345.herokuapp.com/';
+  window.location.href = 'https://pong-ipr.herokuapp.com/';
 </script>
 </body>
 </html>
