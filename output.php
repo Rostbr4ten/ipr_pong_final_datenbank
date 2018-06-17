@@ -10,7 +10,7 @@
 <body>
 <?php
 echo "<table style='border: solid 1px black;'>";
-echo "<tr><td>Name</td><td>Punkte</td></tr>";
+echo "<tr><td>Name</td><td>|Punkte</td></tr>";
 
 class TableRows extends RecursiveIteratorIterator {
   function __construct($it) {
