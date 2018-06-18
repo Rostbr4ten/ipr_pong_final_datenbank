@@ -33,7 +33,7 @@ class TableRows extends RecursiveIteratorIterator {
 try {
   // $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $stmt = $pdo->prepare("SELECT name, punkte FROM users");
+  $stmt = $pdo->prepare("SELECT name, punkte FROM users ORDER BY punkte");
   $stmt->execute();
 
   // set the resulting array to associative
